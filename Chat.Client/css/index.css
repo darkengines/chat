@@ -1,0 +1,45 @@
+﻿html {
+	height: 100%;
+}
+
+body {
+	background-color: rgba(0,0,0,1);
+	height: 100%;
+}
+
+div.Container {
+	height: 100%;
+}
+
+div.Chat {
+	padding: 4px;
+	height: 100%;
+	width: 100%;
+}
+
+	div.Chat > div.Output {
+		height: -moz-calc(100% - 26px); /* Firefox */
+		height: -webkit-calc(100% - 26px); /* Chrome, Safari */
+		height: calc(100% - 26px); /* IE9+ and future browsers */
+	}
+
+	div.Chat > div.Input {
+		height: 38px;
+	}
+
+div.Box {
+	background-color: rgba(255,255,255,1);
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 4px;
+}
+
+	div.Box + div.Box {
+		margin-top: 4px;
+	}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
