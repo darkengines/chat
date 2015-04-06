@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="chat.js" />
+    <Compile Include="database.js" />
     <Compile Include="server.js" />
     <Compile Include="user.js" />
     <Content Include="package.json" />

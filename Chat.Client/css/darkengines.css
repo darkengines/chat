@@ -42,7 +42,27 @@ body {
 		.Container .Box:first-child {
 			margin-top: 8px;
 		}
-
+.Login {
+  display: flex;
+  flex-flow: column wrap;
+  left: calc(50% - 128px);
+  padding: 136px 0 0 0;
+  width: 256px;
+  position: absolute;
+  flex-wrap: nowrap;
+  top: calc(50% - 98px);
+  background-image: url(../img/aperture.svg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 4px;
+  background-size: auto 128px;
+}
+input[type=text], input[type=password] {
+	height: 26px;
+	line-height: 26px;
+	border: none;
+	padding: 0 4px;
+}
 .Chat {
 	display: flex;
 	flex-flow: column wrap;

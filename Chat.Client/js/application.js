@@ -60,7 +60,7 @@ var application = function(args) {
 		var app = new application({
 			$scope: $(document),
 			chatSocket: {
-				url: 'ws://88.162.193.15:1337',
+				url: 'ws://127.0.0.1:1337',
 				events : {},
 				open: function() {},
 				close: function() {},
